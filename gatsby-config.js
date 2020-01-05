@@ -58,6 +58,7 @@ module.exports = {
         trackingId: "UA-155262276-1",
       },
     },
+    `gatsby-plugin-theme-ui`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
   ],
