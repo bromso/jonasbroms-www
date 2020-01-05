@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/bromso/jonasbroms-www/compare/v1.4.0...v1.5.0) (2020-01-05)
+
+
+### Features
+
+* create Content structure ([95f891b](https://github.com/bromso/jonasbroms-www/commit/95f891bb5b80cdc35594930da450057196613625))
+* create Gatsby Browser, Config & SSR ([c72f21e](https://github.com/bromso/jonasbroms-www/commit/c72f21ee037b2ae025ea1d4fea3a704647e0a2d6))
+
 # [1.4.0](https://github.com/bromso/jonasbroms-www/compare/v1.3.1...v1.4.0) (2020-01-05)
 
 
