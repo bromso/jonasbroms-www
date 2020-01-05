@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/bromso/jonasbroms-www/compare/v1.6.0...v1.7.0) (2020-01-05)
+
+
+### Bug Fixes
+
+* delete main index.js, add more context & info to repository & bugs ([66508fe](https://github.com/bromso/jonasbroms-www/commit/66508fe320b33fc665178305324f4f9f3b8e33da))
+
+
+### Features
+
+* add gatsby plugin Netlify ([9501cdc](https://github.com/bromso/jonasbroms-www/commit/9501cdc8a74b75acda763f7eb960ab8a6778bd0d))
+
 # [1.6.0](https://github.com/bromso/jonasbroms-www/compare/v1.5.0...v1.6.0) (2020-01-05)
 
 
