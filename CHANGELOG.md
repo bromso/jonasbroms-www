@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/bromso/jonasbroms-www/compare/v1.8.2...v1.9.0) (2020-01-05)
+
+
+### Bug Fixes
+
+* add gatsby instead of yarn ([03d516d](https://github.com/bromso/jonasbroms-www/commit/03d516d75d858241a42343cb2f1b8310d91a70ee))
+
+
+### Features
+
+* create publish.sh & automated deployment from Travis-CI to Netlify ([f3fe8c6](https://github.com/bromso/jonasbroms-www/commit/f3fe8c613c9c97aad144d6c0945b16e7fa48d7b6))
+
 ## [1.8.2](https://github.com/bromso/jonasbroms-www/compare/v1.8.1...v1.8.2) (2020-01-05)
 
 
