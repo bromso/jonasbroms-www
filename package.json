@@ -2,8 +2,13 @@
   "name": "jonasbroms-www",
   "version": "1.5.0",
   "description": "Jonas Bröms official website built with Gatsby, Novela Theme & Semantic-Release. Tested in Travis-CI & deployed to Netlify.",
-  "main": "index.js",
-  "repository": "https://github.com/bromso/jonasbroms-www.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bromso/jonasbroms-www"
+  },
+  "bugs": {
+    "url": "https://github.com/bromso/jonasbroms-www/issues"
+  },
   "author": "Jonas Broms <jonas.broms@gmail.com>",
   "license": "MIT",
   "dependencies": {
