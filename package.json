@@ -6,6 +6,11 @@
   "repository": "https://github.com/bromso/jonasbroms-www.git",
   "author": "Jonas Broms <jonas.broms@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.18.17",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
     "@commitlint/config-conventional": "^8.3.4",
@@ -52,9 +57,5 @@
   "scripts": {
     "semantic-release": "semantic-release",
     "test": "echo Hello, world!"
-  },
-  "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
   }
 }
