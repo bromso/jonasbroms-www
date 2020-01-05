@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/bromso/jonasbroms-www/compare/v1.0.0...v1.1.0) (2020-01-05)
+
+
+### Features
+
+* Add Commitizen ([93ed14b](https://github.com/bromso/jonasbroms-www/commit/93ed14bf16e322b54ff6636745077e04f6b55c5b))
+* Add Commitlint ([c41c78a](https://github.com/bromso/jonasbroms-www/commit/c41c78a1e83cd067257d478f76c4cadb5ba6bb4f))
+* add Husky ([d0254c2](https://github.com/bromso/jonasbroms-www/commit/d0254c22e64ab254a03619f494d33ccfbdf905f3))
+* Create .editorconfig ([67c58d9](https://github.com/bromso/jonasbroms-www/commit/67c58d92911986dfb9f6f6d3a3ed525b85cfb08c))
+
 # 1.0.0 (2020-01-05)
 
 
