@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/bromso/jonasbroms-www/compare/v1.9.3...v1.10.0) (2020-01-05)
+
+
+### Features
+
+* create license ([9a9ac0e](https://github.com/bromso/jonasbroms-www/commit/9a9ac0e6383616baf922c0f71ccde702bad3c3d3))
+
 ## [1.9.3](https://github.com/bromso/jonasbroms-www/compare/v1.9.2...v1.9.3) (2020-01-05)
 
 
