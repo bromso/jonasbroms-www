@@ -1,33 +1,33 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Jonas Bröms`,
+    name: `Bröms`,
+    siteUrl: `https://jonasbroms.com`,
+    description: `Online Entrepreneur, Creative Director with coding skills`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Jonas Bröms blog, a narrated story of my life.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/jonasbroms`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/bromso`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/jonasbroms`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/jonas-broms/`,
       },
       {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `facebook`,
+        url: `https://facebook.com/jonasbroms`,
       },
     ],
   },
@@ -43,8 +43,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Jonas Bröms`,
+        short_name: `Bröms`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
@@ -55,7 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-118232427-3",
+        trackingId: "UA-155262276-1",
       },
     },
     `gatsby-plugin-netlify`,
