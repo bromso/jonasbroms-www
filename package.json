@@ -1,9 +1,31 @@
 {
   "name": "jonasbroms-www",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Jonas Bröms official website built with Gatsby, Novela Theme & Semantic-Release. Tested in Travis-CI & deployed to Netlify.",
   "main": "index.js",
   "repository": "https://github.com/bromso/jonasbroms-www.git",
   "author": "Jonas Broms <jonas.broms@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.5",
+    "@semantic-release/release-notes-generator": "^7.3.5",
+    "semantic-release": "^15.14.0"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "master"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  }
 }
