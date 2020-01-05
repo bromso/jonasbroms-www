@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/bromso/jonasbroms-www/compare/v1.1.0...v1.2.0) (2020-01-05)
+
+
+### Features
+
+* add GatsbyJS ([a9efee4](https://github.com/bromso/jonasbroms-www/commit/a9efee4a7a97149a34669df8eb6888d3e271f3bd))
+* add React & React-Dom ([c38ade8](https://github.com/bromso/jonasbroms-www/commit/c38ade8014f7beb88449592ca3d50a830ca59a33))
+
 # [1.1.0](https://github.com/bromso/jonasbroms-www/compare/v1.0.0...v1.1.0) (2020-01-05)
 
 
