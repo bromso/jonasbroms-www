@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/bromso/jonasbroms-www/compare/v1.10.0...v1.10.1) (2020-01-05)
+
+
+### Bug Fixes
+
+* update netlify publish key & add lock deploy ([f6fe536](https://github.com/bromso/jonasbroms-www/commit/f6fe536cc1d341e9aa7403fc7a473926312ce2f3))
+
 # [1.10.0](https://github.com/bromso/jonasbroms-www/compare/v1.9.3...v1.10.0) (2020-01-05)
 
 
