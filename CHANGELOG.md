@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/bromso/jonasbroms-www/compare/v1.5.0...v1.6.0) (2020-01-05)
+
+
+### Features
+
+* add gatsby plugin Google Analytics ([d0a8b02](https://github.com/bromso/jonasbroms-www/commit/d0a8b025a26ff4b617478677ffe38a38ce3469f4))
+* add gatsby plugin manifest ([6db8279](https://github.com/bromso/jonasbroms-www/commit/6db8279679a1b8c8eae1d5cf99c2ebc153b8cf33))
+* add gatsby plugin Offline ([a5777f1](https://github.com/bromso/jonasbroms-www/commit/a5777f153dacc10c5b0f9729cac1cd5062b80498))
+
 # [1.5.0](https://github.com/bromso/jonasbroms-www/compare/v1.4.0...v1.5.0) (2020-01-05)
 
 
