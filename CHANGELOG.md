@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/bromso/jonasbroms-www/compare/v1.7.0...v1.8.0) (2020-01-05)
+
+
+### Features
+
+* create _redirects ([3cae9e8](https://github.com/bromso/jonasbroms-www/commit/3cae9e84f5140240ef71271f0ccc0a6bf0352c3e))
+
 # [1.7.0](https://github.com/bromso/jonasbroms-www/compare/v1.6.0...v1.7.0) (2020-01-05)
 
 
