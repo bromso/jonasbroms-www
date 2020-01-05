@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/bromso/jonasbroms-www/compare/v1.9.0...v1.9.1) (2020-01-05)
+
+
+### Bug Fixes
+
+* delet $ ([173de74](https://github.com/bromso/jonasbroms-www/commit/173de74359980e37f613b0c62beee3a26057eb11))
+
 # [1.9.0](https://github.com/bromso/jonasbroms-www/compare/v1.8.2...v1.9.0) (2020-01-05)
 
 
