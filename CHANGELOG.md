@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/bromso/jonasbroms-www/compare/v1.3.1...v1.4.0) (2020-01-05)
+
+
+### Features
+
+* create netlify.toml ([118d86c](https://github.com/bromso/jonasbroms-www/commit/118d86c0ef1d0f34c28567a75d27cb107e85c5f2))
+
 ## [1.3.1](https://github.com/bromso/jonasbroms-www/compare/v1.3.0...v1.3.1) (2020-01-05)
 
 
