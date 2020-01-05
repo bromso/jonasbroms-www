@@ -57,6 +57,9 @@
   },
   "scripts": {
     "semantic-release": "semantic-release",
-    "test": "echo Hello, world!"
+    "test": "echo Hello, world!",
+    "build": "gatsby build && cp -R _redirects public/",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean"
   }
 }
