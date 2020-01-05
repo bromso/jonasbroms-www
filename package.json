@@ -27,5 +27,6 @@
   },
   "scripts": {
     "semantic-release": "semantic-release"
-  }
+  },
+  "test": "echo 0"
 }
