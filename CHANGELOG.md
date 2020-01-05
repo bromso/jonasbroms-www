@@ -1,3 +1,12 @@
+## [1.8.1](https://github.com/bromso/jonasbroms-www/compare/v1.8.0...v1.8.1) (2020-01-05)
+
+
+### Bug Fixes
+
+* add real author, Jonas Bröms ([c5acb87](https://github.com/bromso/jonasbroms-www/commit/c5acb878405e65280be7225da89f601fcc3a3a89))
+* delete template authors ([6ac5862](https://github.com/bromso/jonasbroms-www/commit/6ac58629e7076281ae9f641754b637cec99f24a5))
+* update Site Url, Social Media, Heading & more ([0a6f828](https://github.com/bromso/jonasbroms-www/commit/0a6f8286221f674f9610215ad30c52ed16b70e87))
+
 # [1.8.0](https://github.com/bromso/jonasbroms-www/compare/v1.7.0...v1.8.0) (2020-01-05)
 
 
