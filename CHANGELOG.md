@@ -1,3 +1,11 @@
+## [1.9.2](https://github.com/bromso/jonasbroms-www/compare/v1.9.1...v1.9.2) (2020-01-05)
+
+
+### Bug Fixes
+
+* restructured the dummy content ([7d9816e](https://github.com/bromso/jonasbroms-www/commit/7d9816e96e080f92c7b32074d9477a8b10274cb8))
+* update publish key and site id ([0d7f392](https://github.com/bromso/jonasbroms-www/commit/0d7f392a653968c82e17782f6200522bb8a84c95))
+
 ## [1.9.1](https://github.com/bromso/jonasbroms-www/compare/v1.9.0...v1.9.1) (2020-01-05)
 
 
