@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/bromso/jonasbroms-www/compare/v1.2.0...v1.3.0) (2020-01-05)
+
+
+### Features
+
+* add Novela GatsbyJS theme ([8efe232](https://github.com/bromso/jonasbroms-www/commit/8efe23250c80f4125e8b0bc3f80300fbc915c0b6))
+
 # [1.2.0](https://github.com/bromso/jonasbroms-www/compare/v1.1.0...v1.2.0) (2020-01-05)
 
 
