@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/bromso/jonasbroms-www/compare/v1.9.2...v1.9.3) (2020-01-05)
+
+
+### Bug Fixes
+
+* update to correct site name ([45a0070](https://github.com/bromso/jonasbroms-www/commit/45a0070ea6b1ee5c6eddc393f9e3b98fa1609419))
+
 ## [1.9.2](https://github.com/bromso/jonasbroms-www/compare/v1.9.1...v1.9.2) (2020-01-05)
 
 
