@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/bromso/jonasbroms-www/compare/v1.8.1...v1.8.2) (2020-01-05)
+
+
+### Bug Fixes
+
+* change to author Jonas Bröms ([ac220c0](https://github.com/bromso/jonasbroms-www/commit/ac220c0d201a58779f9f2e54152f0c58106cdc3e))
+
 ## [1.8.1](https://github.com/bromso/jonasbroms-www/compare/v1.8.0...v1.8.1) (2020-01-05)
 
 
