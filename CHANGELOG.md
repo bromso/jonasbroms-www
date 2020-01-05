@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/bromso/jonasbroms-www/compare/v1.3.0...v1.3.1) (2020-01-05)
+
+
+### Bug Fixes
+
+* add Gatsby build, dev & clean scripts ([6a23706](https://github.com/bromso/jonasbroms-www/commit/6a23706fc557e0f851541da72c98a0ece117248b))
+
 # [1.3.0](https://github.com/bromso/jonasbroms-www/compare/v1.2.0...v1.3.0) (2020-01-05)
 
 
