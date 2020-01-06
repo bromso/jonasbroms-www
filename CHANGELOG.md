@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/bromso/jonasbroms-www/compare/v1.10.1...v1.10.2) (2020-01-05)
+
+
+### Bug Fixes
+
+* delete $ symbol ([46c6bb1](https://github.com/bromso/jonasbroms-www/commit/46c6bb16cee987e0c9c56014a3eb1f5f7d0df8fe))
+
 ## [1.10.1](https://github.com/bromso/jonasbroms-www/compare/v1.10.0...v1.10.1) (2020-01-05)
 
 
