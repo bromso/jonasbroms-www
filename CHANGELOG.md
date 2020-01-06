@@ -1,3 +1,11 @@
+# [1.11.0](https://github.com/bromso/jonasbroms-www/compare/v1.10.2...v1.11.0) (2020-01-06)
+
+
+### Features
+
+* add theme ui ([b9da9c0](https://github.com/bromso/jonasbroms-www/commit/b9da9c02443547b5c97e2371a84347a1b808144e))
+* create a logo component ([3ec6fe7](https://github.com/bromso/jonasbroms-www/commit/3ec6fe79c9a978393dc49aca50b622e366daf9b7))
+
 ## [1.10.2](https://github.com/bromso/jonasbroms-www/compare/v1.10.1...v1.10.2) (2020-01-05)
 
 
