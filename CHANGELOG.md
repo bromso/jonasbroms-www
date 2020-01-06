@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/bromso/jonasbroms-www/compare/v1.11.0...v1.12.0) (2020-01-06)
+
+
+### Features
+
+* add gatsby plugin sitemap ([3a0b3c8](https://github.com/bromso/jonasbroms-www/commit/3a0b3c8df89fc8e11e3087fb66ce4c98430563d3))
+
 # [1.11.0](https://github.com/bromso/jonasbroms-www/compare/v1.10.2...v1.11.0) (2020-01-06)
 
 
