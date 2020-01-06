@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/bromso/jonasbroms-www/compare/v1.12.0...v1.13.0) (2020-01-06)
+
+
+### Features
+
+* add gatsby plugin robots txt ([62dea29](https://github.com/bromso/jonasbroms-www/commit/62dea29b50a61f517a39cd9b2a30f413d5fa18e5))
+
 # [1.12.0](https://github.com/bromso/jonasbroms-www/compare/v1.11.0...v1.12.0) (2020-01-06)
 
 
