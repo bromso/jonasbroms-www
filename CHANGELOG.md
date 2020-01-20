@@ -1,3 +1,12 @@
+## [1.13.1](https://github.com/bromso/jonasbroms-www/compare/v1.13.0...v1.13.1) (2020-01-20)
+
+
+### Bug Fixes
+
+* update from gatsby to yarn as build script ([0a9ea54](https://github.com/bromso/jonasbroms-www/commit/0a9ea542dcdc9ad5a97c1c29bb32d24c228f2508))
+* update scripts dev to develop ([b8ab703](https://github.com/bromso/jonasbroms-www/commit/b8ab703fef6ca1d7a2ce3c29c28cbe8357ffac4e))
+* update yarn.lock ([c748e8c](https://github.com/bromso/jonasbroms-www/commit/c748e8c2996b999de4f3130c9b359fa671c9faf0))
+
 # [1.13.0](https://github.com/bromso/jonasbroms-www/compare/v1.12.0...v1.13.0) (2020-01-06)
 
 
