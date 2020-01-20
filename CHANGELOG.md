@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/bromso/jonasbroms-www/compare/v1.13.1...v1.13.2) (2020-01-20)
+
+
+### Bug Fixes
+
+* add private ([d41de9c](https://github.com/bromso/jonasbroms-www/commit/d41de9cb52cfec806255ab623f3f7dc4adf0ab62))
+
 ## [1.13.1](https://github.com/bromso/jonasbroms-www/compare/v1.13.0...v1.13.1) (2020-01-20)
 
 
