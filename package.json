@@ -1,7 +1,7 @@
 {
   "name": "jonasbroms-www",
   "private": true,
-  "version": "1.13.2",
+  "version": "1.13.3",
   "description": "Jonas Bröms official website built with Gatsby, Novela Theme & Semantic-Release. Tested in Travis-CI & deployed to Netlify.",
   "repository": {
     "type": "git",
