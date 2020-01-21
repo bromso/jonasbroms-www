@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/bromso/jonasbroms-www/compare/v1.13.2...v1.13.3) (2020-01-21)
+
+
+### Bug Fixes
+
+* add temp logotype ([032983c](https://github.com/bromso/jonasbroms-www/commit/032983cf4aaf5a10680da78767198d6634bf8158))
+
 ## [1.13.2](https://github.com/bromso/jonasbroms-www/compare/v1.13.1...v1.13.2) (2020-01-20)
 
 
