@@ -46,7 +46,7 @@ export { default as SimilarStories } from "./SimilarStories";
 
 // Career Listing
 export { default as Jobs } from "./Jobs";
-export { default as About } from "./About";
+export * from "./About";
 export { default as CompanyValues } from "./CompanyValues";
 
 // Career Opening
