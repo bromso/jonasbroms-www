@@ -1,0 +1,31 @@
+import React from 'react';
+import Box from '@mui/material/Box';
+import Divider from '@mui/material/Divider';
+
+import { Main } from "layouts";
+import { Container } from 'components';
+
+import { About, Features, Hero, Jobs, Newsletter } from './components';
+
+const CareerListingMinimal = (): JSX.Element => (
+  <Main colorInvert={true}>
+    <Hero />
+    <Container paddingY={'0 !important'}>
+      <About />
+    </Container>
+    <Container>
+      <Features />
+    </Container>
+    <Box bgcolor={'alternate.main'}>
+      <Container>
+        <Jobs />
+      </Container>
+    </Box>
+    <Container>
+      <Newsletter />
+    </Container>
+    <Divider />
+  </Main>
+);
+
+export default CareerListingMinimal;

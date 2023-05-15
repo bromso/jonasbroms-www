@@ -1,0 +1,144 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "WWW: Server-side",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn www:dev"
+		},
+		{
+			"name": "WWW: Client-side",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3000"
+		},
+		{
+			"name": "WWW: Full-stack",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn www:dev",
+			"serverReadyAction": {
+				"pattern": "started server on .+, url: (https?://.+)",
+				"uriFormat": "%s",
+				"action": "debugWithChrome"
+			}
+		},
+		{
+			"name": "Help: Server-side",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn help:dev"
+		},
+		{
+			"name": "Help: Client-side",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3002"
+		},
+		{
+			"name": "Help: Full-stack",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn help:dev",
+			"serverReadyAction": {
+				"pattern": "started server on .+, url: (https?://.+)",
+				"uriFormat": "%s",
+				"action": "debugWithChrome"
+			}
+		},
+		{
+			"name": "Jobs: Server-side",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn jobs:dev"
+		},
+		{
+			"name": "Jobs: Client-side",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3004"
+		},
+		{
+			"name": "Jobs: Full-stack",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn jobs:dev",
+			"serverReadyAction": {
+				"pattern": "started server on .+, url: (https?://.+)",
+				"uriFormat": "%s",
+				"action": "debugWithChrome"
+			}
+		},
+		{
+			"name": "Legal: Server-side",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn legal:dev"
+		},
+		{
+			"name": "Legal: Client-side",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3003"
+		},
+		{
+			"name": "Legal: Full-stack",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn legal:dev",
+			"serverReadyAction": {
+				"pattern": "started server on .+, url: (https?://.+)",
+				"uriFormat": "%s",
+				"action": "debugWithChrome"
+			}
+		},
+		{
+			"name": "Docs: Server-side",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn docs:dev"
+		},
+		{
+			"name": "Docs: Client-side",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3006"
+		},
+		{
+			"name": "Docs: Full-stack",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn docs:dev",
+			"serverReadyAction": {
+				"pattern": "started server on .+, url: (https?://.+)",
+				"uriFormat": "%s",
+				"action": "debugWithChrome"
+			}
+		},
+
+		{
+			"name": "Wiki: Server-side",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn wiki:dev"
+		},
+		{
+			"name": "Wiki: Client-side",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3010"
+		},
+		{
+			"name": "Wiki: Full-stack",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "yarn wiki:dev",
+			"serverReadyAction": {
+				"pattern": "started server on .+, url: (https?://.+)",
+				"uriFormat": "%s",
+				"action": "debugWithChrome"
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"name": "shop",
+	"version": "0.0.0",
+	"description": "Odduse eCommerce shop built on NextJS & MUI",
+	"license": "MIT",
+	"private": true,
+	"author": {
+		"email": "info@odduse.com",
+		"name": "Odduse Ltd",
+		"url": "http://odduse.com"
+	},
+	"maintainers": [{
+		"name": "Jonas Bröms",
+		"email": "jonas@odduse.com"
+	}],
+	"scripts": {
+		"dev": "next dev -p 3006",
+		"build": "next build -p 3006",
+		"start": "next start -p 3006",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "^12.3.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"components": "*",
+		"blocks": "*",
+		"layouts": "*",
+		"theme": "*",
+		"views": "*",
+		"svg": "*"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.17",
+		"@types/react": "18.0.26",
+		"eslint": "8.30.0",
+		"eslint-config-custom": "*",
+		"next-transpile-modules": "10.0.0",
+		"tsconfig": "*",
+		"typescript": "^4.9.4"
+	},
+	"keywords": [
+		"odduse",
+		"ecommerce",
+		"shop",
+		"nextjs",
+		"mui"
+	]
+}

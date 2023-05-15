@@ -1,78 +1,73 @@
 {
-  "name": "jonasbroms-www",
-  "private": true,
-  "version": "1.13.3",
-  "description": "Jonas Bröms official website built with Gatsby, Novela Theme & Semantic-Release. Tested in Travis-CI & deployed to Netlify.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bromso/jonasbroms-www"
+	"name": "jonasbroms-www",
+	"version": "0.0.0",
+	"description": "Jonas Bröms official website, using the Odduse Monorepo Architecture & Structure built on NodeJS, Turborepo, Yarn, Workspaces, React, Typescript, NextJS, Storybook & Material UI (MUI)",
+	"license": "Closed source",
+	"private": true,
+	"author": {
+		"email": "jonasbroms@icloud.com",
+		"name": "Jonas Bröms",
+		"url": "https://jonasbroms.com"
+	},
+	"maintainers": [
+		{
+			"name": "Jonas Bröms",
+			"email": "jonasbroms@icloud.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bromso/jonasbroms-www.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bromso/jonasbroms-www/issues"
+	},
+	"workspaces": [
+		"apps/*",
+		"packages/*",
+		"tools/*",
+		"utils/*"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev --parallel",
+		"www:dev": "turbo run dev --filter=./apps/www",
+		"www:build": "turbo run build --filter=./apps/www",
+		"docs:dev": "turbo run dev --filter=./apps/docs",
+		"docs:build": "turbo run build --filter=./apps/docs",
+		"blog:dev": "turbo run dev --filter=./apps/blog",
+		"blog:build": "turbo run build --filter=./apps/blog",
+		"jobs:dev": "turbo run dev --filter=./apps/jobs",
+		"jobs:build": "turbo run build --filter=./apps/jobs",
+		"help:dev": "turbo run dev --filter=./apps/help",
+		"help:build": "turbo run build --filter=./apps/help",
+		"legal:dev": "turbo run dev --filter=./apps/legal",
+		"legal:build": "turbo run build --filter=./apps/legal",
+		"wiki:dev": "turbo run dev --filter=./apps/wiki",
+		"wiki:build": "turbo run build --filter=./apps/wiki",
+		"lint": "turbo run lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+	},
+	"devDependencies": {
+		"eslint-config-custom": "*",
+		"prettier": "latest",
+		"turbo": "latest"
+	},
+	"engines": {
+    "node": ">=16.0.0"
   },
-  "bugs": {
-    "url": "https://github.com/bromso/jonasbroms-www/issues"
-  },
-  "author": "Jonas Broms <jonas.broms@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.12.2",
-    "gatsby": "^2.18.17",
-    "gatsby-plugin-google-analytics": "^2.1.31",
-    "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-netlify": "^2.1.30",
-    "gatsby-plugin-offline": "^3.0.30",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sitemap": "^2.2.24",
-    "gatsby-plugin-theme-ui": "^0.2.53",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^8.3.4",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@semantic-release/changelog": "^3.0.6",
-    "@semantic-release/commit-analyzer": "^6.3.3",
-    "@semantic-release/git": "^7.0.18",
-    "@semantic-release/github": "^5.5.5",
-    "@semantic-release/npm": "^5.3.5",
-    "@semantic-release/release-notes-generator": "^7.3.5",
-    "commitizen": "^4.0.3",
-    "husky": "^3.1.0",
-    "semantic-release": "^15.14.0"
-  },
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@semantic-release/changelog",
-      "@semantic-release/git"
-    ],
-    "branch": "master"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "subject-case": [
-        2,
-        "never",
-        [
-          "start-case",
-          "pascal-case"
-        ]
-      ]
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "scripts": {
-    "semantic-release": "semantic-release",
-    "test": "echo Hello, world!",
-    "build": "gatsby build && cp -R _redirects public/",
-    "develop": "gatsby develop",
-    "clean": "gatsby clean"
-  }
+	"packageManager": "yarn@1.22.19",
+	"keywords": [
+		"architecture",
+		"structure",
+		"yarn",
+		"workspaces",
+		"turborepo",
+		"prettier",
+		"eslint",
+		"vscode",
+		"nvm",
+		"node version manager",
+		"visual code"
+	]
 }
