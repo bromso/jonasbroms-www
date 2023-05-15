@@ -1,1 +1,2 @@
-export { default } from './AppStatsSimple';
+export * from './AppStatsSimple';
+export * from './AppStatsSimpleItem';

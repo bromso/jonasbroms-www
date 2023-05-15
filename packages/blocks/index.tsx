@@ -1,4 +1,4 @@
-export { default as AppStatsSimple } from "./AppStatsSimple";
+export * from "./AppStatsSimple";
 export { default as AppStatsWithBrandIcon } from "./AppStatsWithBrandIcon";
 export { default as AppStatsWithSharedBorders } from "./AppStatsWithSharedBorders";
 

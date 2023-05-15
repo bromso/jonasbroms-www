@@ -10,8 +10,8 @@ import Avatar from "@mui/material/Avatar";
 
 interface CaseStudiesItemProps {
 	title?: ReactNode;
+	subtitle?: ReactNode;
 	image?: string;
-	description?: ReactNode;
 	authorName?: ReactNode;
 	authorAvatar?: string;
 	date?: ReactNode;
@@ -20,8 +20,8 @@ interface CaseStudiesItemProps {
 
 export const CaseStudiesItem = ({
 	title,
+	subtitle,
 	image,
-	description,
 	authorName,
 	authorAvatar,
 	date,
@@ -100,7 +100,7 @@ export const CaseStudiesItem = ({
 								color="text.secondary"
 								sx={{ color: "common.white", opacity: 0.8 }}
 							>
-								{description}
+								{subtitle}
 							</Typography>
 						</Box>
 						<Box>

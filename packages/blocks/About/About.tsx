@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -6,15 +6,19 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
 interface AboutProps {
-	title: any;
-	subtitle: any;
-	description: any;
+	title?: ReactNode;
+	subtitle?: ReactNode;
+	description?: ReactNode;
+	image?: string;
+	imageAlt?: string;
 }
 
 export const About = ({
 	title,
 	subtitle,
 	description,
+	image,
+	imageAlt,
 }: AboutProps): JSX.Element => {
 	const theme = useTheme();
 	return (
@@ -63,8 +67,8 @@ export const About = ({
 						width={1}
 						maxHeight={{ xs: 300, sm: 400, md: 520 }}
 						borderRadius={2}
-						src={"https://assets.maccarianagency.com/backgrounds/img1.jpg"}
-						alt="..."
+						src={image}
+						alt={imageAlt}
 						effect="blur"
 						sx={{
 							objectFit: "cover",

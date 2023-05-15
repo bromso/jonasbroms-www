@@ -4,19 +4,14 @@ import Box from "@mui/material/Box";
 import { Main } from "layouts";
 import { Container } from "components";
 
-import { SimpleFeatures, HeroTyping } from "blocks";
-
 import {
-	Benefits,
-	GetStarted,
-	Services,
-	QuickStart,
-	BlogVerticallyAlignedBlogCardsWithShapedImage,
-	BlogCardsWithFullBackgroundImage,
-	BlogVerticalMinimalDesignedBlogCards,
-	CardWithColorAccent,
+	SimpleFeatures,
+	HeroTyping,
 	CaseStudies,
 	CaseStudiesItem,
+	About,
+	AppStatsSimple,
+	AppStatsSimpleItem,
 } from "blocks";
 
 const IndexView = (): JSX.Element => {
@@ -30,15 +25,32 @@ const IndexView = (): JSX.Element => {
 				/>
 				<Container>
 					<CaseStudies title="Test" subtitle="Testar mera">
-						<CaseStudiesItem />
+						<CaseStudiesItem
+							title="Lorem"
+							subtitle="Ipsum"
+							image="https://assets.maccarianagency.com/backgrounds/img1.jpg"
+							authorName=""
+							authorAvatar="https://assets.maccarianagency.com/backgrounds/img1.jpg"
+							date="2023-04-23"
+							image="https://assets.maccarianagency.com/backgrounds/img1.jpg"
+						/>
 					</CaseStudies>
-					<Services
-						title="Build accessible React apps with speed"
-						subtitle="Build a beautiful, modern website with flexible, fully customizable,
-            atomic MUI components."
+				</Container>
+				<Container>
+					<About
+						title="Lorem ipsum"
+						subtitle="Dolor sit amet"
+						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc."
+						image="https://assets.maccarianagency.com/backgrounds/img1.jpg"
 					/>
 				</Container>
-				<BlogVerticallyAlignedBlogCardsWithShapedImage />
+				<Container>
+					<AppStatsSimple title="Lorem ipsum">
+						<AppStatsSimpleItem title="Lorem ipsum" subtitle="Sit amet" />
+						<AppStatsSimpleItem title="Lorem ipsum" subtitle="Sit amet" />
+						<AppStatsSimpleItem title="Lorem ipsum" subtitle="Sit amet" />
+					</AppStatsSimple>
+				</Container>
 				<Box
 					sx={{
 						backgroundImage: `linear-gradient(to bottom, ${alpha(
@@ -48,45 +60,7 @@ const IndexView = (): JSX.Element => {
 						backgroundRepeat: "repeat-x",
 						position: "relative",
 					}}
-				>
-					<Container maxWidth={600}>
-						<QuickStart
-							title="Build tools and full documention"
-							subtitle="Components, plugins, and build tools are all thoroughly documented
-						with live examples and markup for easier use and customization."
-							description={`
-> $ yarn install
-// Or
-> $ npm install
-
-// Everything installed!
-
-
-> $ yarn start
-// Or
-> $ npm run start
-
-// LiveReload started. Opening localhost:3000
-
-`}
-						/>
-					</Container>
-					<Container>
-						<SimpleFeatures
-							title="The powerful and flexible theme for all kinds of businesses"
-							subtitle="Whether you're creating a subscription service, an on-demand marketplace, an e-commerce store, or a portfolio showcase, theFront helps you create the best possible product for your users."
-						/>
-					</Container>
-					<Container>
-						<Benefits />
-					</Container>
-				</Box>
-				<Container>
-					<GetStarted
-						title="Get started with theFront today"
-						subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic MUI components."
-					/>
-				</Container>
+				></Box>
 			</Main>
 		</Box>
 	);
