@@ -1,0 +1,83 @@
+{
+  "folders": [
+		{
+			"name": "🛠️ Utilities",
+			"path": "./lib/utils"
+		},
+		{
+			"name": "👁️ Views",
+			"path": "./views"
+		},
+		{
+			"name": "📰 Design blocks",
+			"path": "./blocks"
+		},
+		{
+			"name": "🧩 Components",
+			"path": "./components"
+		},
+		{
+			"name": "💅 Styles",
+			"path": "./styles/"
+		},
+		{
+			"name": "🌇 Public",
+			"path": "./public"
+		},
+		{
+			"name": "🏠 Root",
+			"path": "./"
+		},
+	],
+  "settings": {
+		"editor.formatOnPaste": false,
+		"editor.formatOnType": false,
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "file",
+		"files.autoSave": "onFocusChange",
+		"files.exclude": {
+			"node_modules": true,
+			".next": true,
+			".swc": true,
+			".turbo": true,
+			".changeset": true,
+			".github": true,
+			".husky": true,
+			"turbo": true,
+			"workflows": true,
+			"ISSUE_TEMPLATE": true,
+			"apps": true,
+			"test": true,
+			"utils": true,
+			"packages": true
+		},
+		"[json]": {
+			"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+		},
+		"scm.alwaysShowActions": false,
+		"breadcrumbs.showEnumMembers": true,
+	},
+  "extensions": {
+    "recommendations": [
+			"formulahendry.auto-close-tag",
+			"aaron-bond.better-comments",
+			"webben.browserslist",
+			"streetsidesoftware.code-spell-checker",
+			"editorconfig.editorconfig",
+			"christian-kohler.npm-intellisense",
+			"christian-kohler.path-intellisense",
+			"ibm.output-colorizer",
+			"esbenp.prettier-vscode",
+			"redhat.vscode-yaml",
+			"vincaslt.highlight-matching-tag",
+			"ms-vscode.vscode-typescript-next",
+			"graphql.vscode-graphql",
+			"rvest.vs-code-prettier-eslint",
+			"github.vscode-github-actions",
+			"vivaxy.vscode-conventional-commits",
+			"abumalick.vscode-nvm",
+			"ms-vscode-remote.remote-containers",
+			"ms-azuretools.vscode-docker"
+		]
+  }
+}

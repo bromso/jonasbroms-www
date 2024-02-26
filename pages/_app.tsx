@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import React from 'react'; // Only keep this if you use JSX syntax directly
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
