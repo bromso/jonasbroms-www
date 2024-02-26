@@ -9,12 +9,16 @@
 			"path": "./views"
 		},
 		{
+			"name": "🧩 Components",
+			"path": "./components"
+		},
+		{
 			"name": "📰 Design blocks",
 			"path": "./blocks"
 		},
 		{
-			"name": "🧩 Components",
-			"path": "./components"
+			"name": "📑 Pages",
+			"path": "./pages"
 		},
 		{
 			"name": "💅 Styles",
@@ -38,6 +42,8 @@
 		"files.exclude": {
 			"node_modules": true,
 			".next": true,
+			".vscode": true,
+			".yarn": true,
 			".swc": true,
 			".turbo": true,
 			".changeset": true,
@@ -49,7 +55,14 @@
 			"apps": true,
 			"test": true,
 			"utils": true,
-			"packages": true
+			"blocks": true,
+			"components": true,
+			"icons": true,
+			"lib": true,
+			"pages": true,
+			"styles": true,
+			"views": true,
+			"public": true,
 		},
 		"[json]": {
 			"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
