@@ -35,3 +35,8 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+# lighthouse
+.lighthouseci
+lhr-*.json
+lhr-*.html

@@ -1,10 +1,11 @@
 {
-	"cSpell.words": [
-		"ecommerce",
-		"nextjs",
-		"odduse",
-		"strapi",
-		"subcomponents",
-		"turborepo"
-	]
+    "cSpell.words": [
+        "clsx",
+        "headlessui",
+        "iconify",
+        "lucide",
+        "Odduse",
+        "tailwindcss",
+        "vaul"
+    ]
 }

@@ -1,3 +1,0 @@
-# Media Kit
-
-Coming soon
