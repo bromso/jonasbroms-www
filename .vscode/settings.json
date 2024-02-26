@@ -8,19 +8,17 @@
         "headlessui",
         "iconify",
         "kohler",
+        "lighthouseci",
         "lucide",
+        "microlink",
+        "Nextjs",
         "Odduse",
         "rvest",
         "tailwindcss",
+        "turborepo",
         "vaul",
         "vincaslt",
         "vivaxy",
-        "webben",
-        "iconify",
-        "kohler",
-        "lighthouseci",
-        "Nextjs",
-        "rvest",
-        "turborepo"
+        "webben"
     ]
 }
