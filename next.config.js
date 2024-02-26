@@ -3,7 +3,7 @@ module.exports = {
 	reactStrictMode: true,
 	images: {
 		domains: [
-			"api.microlink.io", // Microlink Image Preview
+			"api.microlink.io",
 			"images.unsplash.com",
 		],
 	},
